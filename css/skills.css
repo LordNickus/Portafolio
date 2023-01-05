@@ -1,0 +1,61 @@
+.skills, .hobbies, .academic, .experience{
+    display: flex;
+    flex-direction: column;
+    
+}
+.skills__title, .hobbies__title, .academic__title, .experience__section__title, .experience__title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+.skills__box, .hobbies__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    background: #FFFFFF;
+    width: 120px;
+    height: 138px;
+    margin: 1rem;
+}
+.skills__img{
+
+}
+.skills__name{
+
+}
+.academic__courses__box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+.academic__courses__item__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    background: #FFFFFF;
+    height: 10rem;
+    margin: 1rem;
+}

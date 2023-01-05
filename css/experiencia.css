@@ -1,0 +1,50 @@
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 16px;
+}
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px
+}
+.experience__description{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: max-content;
+
+}
+.experience__botao--demo, .formcontato__botao{
+    background: #2A7AE4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    border-radius: 5px;
+    border-color: royalblue;
+
+}
+.experiencia__botao--repo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    border: 1px solid #2A7AE4;
+    border-radius: 5px;
+}    
+.experience__img{
+    height: 400px;
+    width: 550px;
+}

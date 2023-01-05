@@ -1,22 +1,25 @@
 /*CSS Reset / Normalize*/
 /* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
 en las secciones señaladas */
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
+
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --cor-de-seccion: #ddeafc;
+    --cor-de-text1: #464646;
+
+    --raleway: 'Raleway', sans-serif;
+    --sahdow: 4px 7px 4px #c4bdbd, 5px 4px 9px #0000004d;
 }
 
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
     font-family: 'Raleway';
-    margin: 0;
-    padding: 0;
+    margin: 1rem;
+    padding: 3rem;
     line-height: 1;
 }
 ol, ul,li {
@@ -48,7 +51,8 @@ section.menu{
 /*Sección Title*/
 
 section.title{
-
+    display: flex;  
+    flex-direction: column-reverse;
 }
 
 /*Sección About*/
@@ -94,8 +98,6 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Tablet*/
 @media (min-width: 768px) {
 
-/* Menú */
-
 /*title*/
 
 /*Skills*/
@@ -111,7 +113,6 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Mobile*/
 @media (min-width: 425px) {
 
-/*Menu*/
 
 /*Titulo*/
 

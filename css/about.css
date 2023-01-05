@@ -1,0 +1,31 @@
+.about{
+    background: var(--cor-de-seccion);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    margin-left: -4rem;
+    margin-right: -4rem;
+}
+.about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+.about__title{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.about__paragraph{
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+.about__signature{
+    display: flex;
+    margin-top: -2rem;
+    margin-left: auto;
+}
