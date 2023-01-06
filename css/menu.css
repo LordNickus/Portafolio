@@ -30,20 +30,26 @@
     font-weight: bold;
 }
 @media (max-width: 768px) {
-
+    .menu{
+        width: 700px;
+        justify-content: space-between;
+    }
     /* Menú */
     .menu__list{
         display: none;
     }
     .menu__list__item__contato{
         display: flex;
+        font-weight: bold;
     }
     
 }
 
-@media (min-width: 425px) {
-
-    /*Menu*/
-   
-
+@media (max-width: 425px) {
+    .menu{
+        width: 360px;
+    }
+    .menu__list__item__contato{
+        font-size: .75rem;
+    }
 }

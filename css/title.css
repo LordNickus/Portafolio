@@ -27,11 +27,47 @@
 }
 .title__network{
     display: flex;
-    text-align: center;
+    justify-content: center;
     padding: 0.3rem;
     
 
 }
 .title__network__item{
     padding: 1rem;
+}
+@media (max-width: 768px) {
+    .title__div{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 90vw;
+    }
+    .title__bio{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .title__network{
+        justify-content: center;
+
+    }
+}
+@media (max-width: 425px) {
+    .title__div{
+        width: 80vw;
+        align-items: center;
+    }
+    
+    
+    .title__profile{
+        width: 98px;
+        height: 98px;
+    }
+    .title__subsection{
+        padding-right: 1rem;
+        padding-left: 0.2rem;
+        
+    }
+    .title__network{
+        font-size: .75rem;
+    }
 }

@@ -13,6 +13,12 @@
     gap: 16px;
 
 }
+.formcontato--esquerda{
+    background: url(../assets/contact_image.png) center no-repeat;
+    background-size: cover;
+    width: 390px;
+    height: 465px;
+}
 
 .formcontato__text{
     display: flex;
@@ -58,4 +64,13 @@
     gap: 8px;
     width: -webkit-fill-available;
 
+}
+@media (max-width: 768px) {
+    .formcontato{
+        padding: 0px;
+        gap: 0px;
+    }
+    .formcontato--esquerda{
+        display: none;
+    }
 }

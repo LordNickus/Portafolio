@@ -97,22 +97,18 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Tablet*/
 @media (min-width: 768px) {
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
+    body {
+        margin: .25rem;
+        padding: .25rem;
+    }
 }
 
 /*Mobile*/
 @media (min-width: 425px) {
-
+    body {
+        margin: .25rem;
+        padding: .25rem;
+    }
 
 /*Titulo*/
 

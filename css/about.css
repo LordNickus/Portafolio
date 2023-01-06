@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     padding: 64px;
+    padding-left: 6rem;
     gap: 10px;
     margin-left: -4rem;
     margin-right: -4rem;
@@ -28,4 +29,11 @@
     display: flex;
     margin-top: -2rem;
     margin-left: auto;
+}
+@media (max-width: 768px) {
+    .about{
+        padding: 48px;
+        margin-left: -1rem;
+        margin-right: 0rem;    
+    }   
 }

@@ -5,6 +5,18 @@
     padding: 1rem;
     gap: 16px;
 }
+.experience__img{
+    width: 768px;
+    height: 436px;
+}
+.experience__img--encriptador{
+    background: url(../assets/secretcode_print.png) center no-repeat;
+    background-size: contain;
+}
+.experience__img--ahorcado{
+    background: url(../assets/Ahorcado.jpeg) center no-repeat;
+    background-size: contain;
+}
 .experience__info{
     display: flex;
     flex-direction: column;
@@ -12,6 +24,7 @@
     padding: 0px;
     gap: 8px
 }
+
 .experience__description{
     display: flex;
     flex-direction: row;
@@ -44,7 +57,16 @@
     border: 1px solid #2A7AE4;
     border-radius: 5px;
 }    
-.experience__img{
-    height: 400px;
-    width: 550px;
+
+@media (max-width: 768px) {
+    .experience__img{
+        width: 80vw;
+        
+    }
+    .experiencie__box{
+        flex-direction: column;
+    }
+    .experience__info{
+    width: min-content;
+}
 }
